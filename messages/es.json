@@ -39,17 +39,19 @@
     }
   },
   "dashboard": {
-    "title": "Panel de",
-    "titleHighlight": "Analíticas en Tiempo Real",
-    "subtitle": "Monitorea el rendimiento de tu contenido en todas las plataformas con insights avanzados y analíticas predictivas.",
-    "totalReach": "Alcance Total",
-    "engagementRate": "Tasa de Engagement",
-    "contentGenerated": "Contenido Generado",
-    "performanceOverview": "Resumen de Rendimiento",
-    "recentActivity": "Actividad Reciente",
-    "activityItem": "Contenido publicado en Instagram",
-    "timeAgo": "minutos",
-    "interactiveCharts": "Gráficos y analíticas interactivos"
+    "welcome": "Bienvenido a tu panel",
+    "connectSocials": "Conecta tus redes sociales",
+    "title": "Panel",
+    "titleHighlight": "vista",
+    "subtitle": "Todas tus métricas",
+    "totalReach": "Alcance total",
+    "engagementRate": "Tasa de engagement",
+    "contentGenerated": "Contenido generado",
+    "performanceOverview": "Resumen de rendimiento",
+    "interactiveCharts": "Gráficos interactivos",
+    "recentActivity": "Actividad reciente",
+    "activityItem": "Nueva publicación",
+    "timeAgo": "días"
   },
   "pricing": {
     "title": "Precios Simples y",
@@ -117,5 +119,8 @@
       "status": "Estado"
     },
     "copyright": "Todos los derechos reservados."
-  }
-}
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "googleButton": "Iniciar con Google"
+  }}
