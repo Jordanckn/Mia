@@ -1,0 +1,121 @@
+{
+  "navigation": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "analytics": "Analytics",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "AI-Powered Content Creation",
+    "titleHighlight": "Across All Platforms",
+    "subtitle": "Generate, schedule, and publish engaging content automatically across Instagram, TikTok, YouTube, LinkedIn, and X with our advanced AI suite.",
+    "inputPlaceholder": "Enter your content topic (e.g., 'Latest AI trends in marketing')",
+    "generateButton": "Generate Content",
+    "generating": "Generating..."
+  },
+  "stats": {
+    "contentGenerated": "Content Pieces Generated",
+    "platforms": "Social Platforms",
+    "uptime": "Uptime Guarantee"
+  },
+  "features": {
+    "title": "Powered by Advanced AI",
+    "subtitle": "Our comprehensive suite leverages GPT-4o, DALL·E 4, Runway Gen-4 Turbo, and ElevenLabs to create content that resonates with your audience.",
+    "aiGeneration": {
+      "title": "AI Content Generation",
+      "description": "Generate engaging content across all platforms using GPT-4o, DALL·E 4, and Runway Gen-4 Turbo"
+    },
+    "scheduling": {
+      "title": "Smart Scheduling",
+      "description": "Optimal posting times with AI-powered audience analysis and automated publishing"
+    },
+    "analytics": {
+      "title": "Advanced Analytics",
+      "description": "Real-time performance tracking with predictive insights and ROI optimization"
+    },
+    "multiChannel": {
+      "title": "Multi-Channel Publishing",
+      "description": "Seamless content distribution across Instagram, TikTok, YouTube, LinkedIn, and X"
+    }
+  },
+  "dashboard": {
+    "title": "Real-Time",
+    "titleHighlight": "Analytics Dashboard",
+    "subtitle": "Monitor your content performance across all platforms with advanced insights and predictive analytics.",
+    "totalReach": "Total Reach",
+    "engagementRate": "Engagement Rate",
+    "contentGenerated": "Content Generated",
+    "performanceOverview": "Performance Overview",
+    "recentActivity": "Recent Activity",
+    "activityItem": "Content published to Instagram",
+    "timeAgo": "minutes ago",
+    "interactiveCharts": "Interactive charts and analytics"
+  },
+  "pricing": {
+    "title": "Simple,",
+    "titleHighlight": "Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your content creation needs. All plans include our AI-powered generation suite.",
+    "mostPopular": "Most Popular",
+    "starter": {
+      "name": "Starter",
+      "price": "$29",
+      "period": "/month",
+      "description": "Perfect for small businesses and creators",
+      "features": [
+        "50 AI-generated posts/month",
+        "3 social platforms",
+        "Basic analytics",
+        "Email support",
+        "Content calendar"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "$79",
+      "period": "/month",
+      "description": "Ideal for growing agencies and teams",
+      "features": [
+        "200 AI-generated posts/month",
+        "All social platforms",
+        "Advanced analytics",
+        "Priority support",
+        "Team collaboration",
+        "Custom branding",
+        "API access"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "$199",
+      "period": "/month",
+      "description": "For large organizations and enterprises",
+      "features": [
+        "Unlimited AI-generated posts",
+        "All platforms + custom integrations",
+        "Advanced analytics + white-label",
+        "Dedicated account manager",
+        "Custom workflows",
+        "Advanced security",
+        "SLA guarantee"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "AI-powered content creation platform for the modern creator.",
+    "product": "Product",
+    "company": "Company",
+    "support": "Support",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "api": "API",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "helpCenter": "Help Center",
+      "contact": "Contact",
+      "status": "Status"
+    },
+    "copyright": "All rights reserved."
+  }
+}

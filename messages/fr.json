@@ -1,0 +1,121 @@
+{
+  "navigation": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "analytics": "Analyses",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "title": "Création de Contenu Alimentée par l'IA",
+    "titleHighlight": "Sur Toutes les Plateformes",
+    "subtitle": "Générez, planifiez et publiez automatiquement du contenu engageant sur Instagram, TikTok, YouTube, LinkedIn et X avec notre suite IA avancée.",
+    "inputPlaceholder": "Entrez votre sujet de contenu (ex: 'Dernières tendances IA en marketing')",
+    "generateButton": "Générer du Contenu",
+    "generating": "Génération..."
+  },
+  "stats": {
+    "contentGenerated": "Contenus Générés",
+    "platforms": "Plateformes Sociales",
+    "uptime": "Garantie de Disponibilité"
+  },
+  "features": {
+    "title": "Alimenté par une IA Avancée",
+    "subtitle": "Notre suite complète exploite GPT-4o, DALL·E 4, Runway Gen-4 Turbo et ElevenLabs pour créer du contenu qui résonne avec votre audience.",
+    "aiGeneration": {
+      "title": "Génération de Contenu IA",
+      "description": "Générez du contenu engageant sur toutes les plateformes avec GPT-4o, DALL·E 4 et Runway Gen-4 Turbo"
+    },
+    "scheduling": {
+      "title": "Planification Intelligente",
+      "description": "Horaires de publication optimaux avec analyse d'audience alimentée par l'IA et publication automatisée"
+    },
+    "analytics": {
+      "title": "Analyses Avancées",
+      "description": "Suivi des performances en temps réel avec insights prédictifs et optimisation du ROI"
+    },
+    "multiChannel": {
+      "title": "Publication Multi-Canaux",
+      "description": "Distribution transparente de contenu sur Instagram, TikTok, YouTube, LinkedIn et X"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord",
+    "titleHighlight": "Analyses en Temps Réel",
+    "subtitle": "Surveillez les performances de votre contenu sur toutes les plateformes avec des insights avancés et des analyses prédictives.",
+    "totalReach": "Portée Totale",
+    "engagementRate": "Taux d'Engagement",
+    "contentGenerated": "Contenu Généré",
+    "performanceOverview": "Aperçu des Performances",
+    "recentActivity": "Activité Récente",
+    "activityItem": "Contenu publié sur Instagram",
+    "timeAgo": "minutes",
+    "interactiveCharts": "Graphiques et analyses interactifs"
+  },
+  "pricing": {
+    "title": "Tarification Simple et",
+    "titleHighlight": "Transparente",
+    "subtitle": "Choisissez le plan parfait pour vos besoins de création de contenu. Tous les plans incluent notre suite de génération IA.",
+    "mostPopular": "Le Plus Populaire",
+    "starter": {
+      "name": "Débutant",
+      "price": "29€",
+      "period": "/mois",
+      "description": "Parfait pour les petites entreprises et créateurs",
+      "features": [
+        "50 posts générés par IA/mois",
+        "3 plateformes sociales",
+        "Analyses de base",
+        "Support par email",
+        "Calendrier de contenu"
+      ]
+    },
+    "professional": {
+      "name": "Professionnel",
+      "price": "79€",
+      "period": "/mois",
+      "description": "Idéal pour les agences et équipes en croissance",
+      "features": [
+        "200 posts générés par IA/mois",
+        "Toutes les plateformes sociales",
+        "Analyses avancées",
+        "Support prioritaire",
+        "Collaboration d'équipe",
+        "Image de marque personnalisée",
+        "Accès API"
+      ]
+    },
+    "enterprise": {
+      "name": "Entreprise",
+      "price": "199€",
+      "period": "/mois",
+      "description": "Pour les grandes organisations et entreprises",
+      "features": [
+        "Posts IA illimités",
+        "Toutes plateformes + intégrations personnalisées",
+        "Analyses avancées + marque blanche",
+        "Gestionnaire de compte dédié",
+        "Workflows personnalisés",
+        "Sécurité avancée",
+        "Garantie SLA"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Plateforme de création de contenu alimentée par l'IA pour le créateur moderne.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "support": "Support",
+    "links": {
+      "features": "Fonctionnalités",
+      "pricing": "Tarifs",
+      "api": "API",
+      "about": "À propos",
+      "blog": "Blog",
+      "careers": "Carrières",
+      "helpCenter": "Centre d'aide",
+      "contact": "Contact",
+      "status": "Statut"
+    },
+    "copyright": "Tous droits réservés."
+  }
+}
