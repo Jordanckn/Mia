@@ -57,6 +57,8 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [currentPlatform, setCurrentPlatform] = useState(0);
   const [contentInput, setContentInput] = useState('');
+  const [tokens, setTokens] = useState(0);
+  const tokenRate = 0.002;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -64,6 +66,11 @@ export default function Home() {
     }, 3000);
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    const words = contentInput.trim() ? contentInput.trim().split(/\s+/).length : 0;
+    setTokens(words * 4);
+  }, [contentInput]);
 
   const handleGenerate = () => {
     if (contentInput.trim()) {
@@ -160,7 +167,12 @@ export default function Home() {
                   )}
                 </button>
               </div>
-              
+
+              <p className="mt-2 text-sm text-gray-400 text-center">
+                {t('hero.tokenEstimate', { count: tokens })} —
+                {t('hero.costEstimate', { price: (tokens / 1000 * tokenRate).toFixed(4) })}
+              </p>
+
               {/* Platform Selector */}
               <div className="mt-6 flex flex-wrap gap-3 justify-center">
                 {platforms.map((platform, index) => (

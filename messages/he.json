@@ -11,7 +11,9 @@
     "subtitle": "צור, תזמן ופרסם תוכן מעניין באופן אוטומטי באינסטגרם, טיקטוק, יוטיוב, לינקדאין ו-X עם חבילת הבינה המלאכותית המתקדמת שלנו.",
     "inputPlaceholder": "הכנס את נושא התוכן שלך (לדוגמה: 'מגמות בינה מלאכותית חדשות בשיווק')",
     "generateButton": "צור תוכן",
-    "generating": "יוצר..."
+    "generating": "יוצר...",
+    "tokenEstimate": "כמות משוערת: {count}",
+    "costEstimate": "עלות משוערת: {price} $"
   },
   "stats": {
     "contentGenerated": "פריטי תוכן שנוצרו",
@@ -51,7 +53,10 @@
     "interactiveCharts": "תרשימים אינטראקטיביים",
     "recentActivity": "פעילות אחרונה",
     "activityItem": "פוסט חדש פורסם",
-    "timeAgo": "ימים"
+    "timeAgo": "ימים",
+    "apiKeyLabel": "מפתח API של OpenAI",
+    "saveKey": "שמור מפתח",
+    "keySaved": "המפתח נשמר!"
   },
   "pricing": {
     "title": "תמחור פשוט ו",

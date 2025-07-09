@@ -11,7 +11,9 @@
     "subtitle": "Générez, planifiez et publiez automatiquement du contenu engageant sur Instagram, TikTok, YouTube, LinkedIn et X avec notre suite IA avancée.",
     "inputPlaceholder": "Entrez votre sujet de contenu (ex: 'Dernières tendances IA en marketing')",
     "generateButton": "Générer du Contenu",
-    "generating": "Génération..."
+    "generating": "Génération...",
+    "tokenEstimate": "Tokens approximatifs : {count}",
+    "costEstimate": "Coût estimé : {price} $"
   },
   "stats": {
     "contentGenerated": "Contenus Générés",
@@ -51,7 +53,10 @@
     "interactiveCharts": "Graphiques interactifs",
     "recentActivity": "Activité récente",
     "activityItem": "Nouveau contenu publié",
-    "timeAgo": "jours"
+    "timeAgo": "jours",
+    "apiKeyLabel": "Clé API OpenAI",
+    "saveKey": "Enregistrer la clé",
+    "keySaved": "Clé enregistrée !"
   },
   "pricing": {
     "title": "Tarification Simple et",

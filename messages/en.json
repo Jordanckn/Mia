@@ -11,7 +11,9 @@
     "subtitle": "Generate, schedule, and publish engaging content automatically across Instagram, TikTok, YouTube, LinkedIn, and X with our advanced AI suite.",
     "inputPlaceholder": "Enter your content topic (e.g., 'Latest AI trends in marketing')",
     "generateButton": "Generate Content",
-    "generating": "Generating..."
+    "generating": "Generating...",
+    "tokenEstimate": "Approx. tokens: {count}",
+    "costEstimate": "Est. cost: ${price}"
   },
   "stats": {
     "contentGenerated": "Content Pieces Generated",
@@ -51,7 +53,10 @@
     "interactiveCharts": "Interactive charts here",
     "recentActivity": "Recent Activity",
     "activityItem": "New post published",
-    "timeAgo": "days"
+    "timeAgo": "days",
+    "apiKeyLabel": "OpenAI API Key",
+    "saveKey": "Save Key",
+    "keySaved": "Key saved!"
   },
   "pricing": {
     "title": "Simple,",
