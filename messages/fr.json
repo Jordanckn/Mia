@@ -11,7 +11,9 @@
     "subtitle": "Générez, planifiez et publiez automatiquement du contenu engageant sur Instagram, TikTok, YouTube, LinkedIn et X avec notre suite IA avancée.",
     "inputPlaceholder": "Entrez votre sujet de contenu (ex: 'Dernières tendances IA en marketing')",
     "generateButton": "Générer du Contenu",
-    "generating": "Génération..."
+    "generating": "Génération...",
+    "tokenEstimate": "Tokens approximatifs : {count}",
+    "costEstimate": "Coût estimé : {price} $"
   },
   "stats": {
     "contentGenerated": "Contenus Générés",
@@ -39,17 +41,22 @@
     }
   },
   "dashboard": {
-    "title": "Tableau de Bord",
-    "titleHighlight": "Analyses en Temps Réel",
-    "subtitle": "Surveillez les performances de votre contenu sur toutes les plateformes avec des insights avancés et des analyses prédictives.",
-    "totalReach": "Portée Totale",
-    "engagementRate": "Taux d'Engagement",
-    "contentGenerated": "Contenu Généré",
-    "performanceOverview": "Aperçu des Performances",
-    "recentActivity": "Activité Récente",
-    "activityItem": "Contenu publié sur Instagram",
-    "timeAgo": "minutes",
-    "interactiveCharts": "Graphiques et analyses interactifs"
+    "welcome": "Bienvenue sur votre tableau de bord",
+    "connectSocials": "Connectez vos comptes sociaux",
+    "title": "Tableau de bord",
+    "titleHighlight": "aperçu",
+    "subtitle": "Toutes vos métriques",
+    "totalReach": "Portée totale",
+    "engagementRate": "Taux d'engagement",
+    "contentGenerated": "Contenu généré",
+    "performanceOverview": "Vue d'ensemble des performances",
+    "interactiveCharts": "Graphiques interactifs",
+    "recentActivity": "Activité récente",
+    "activityItem": "Nouveau contenu publié",
+    "timeAgo": "jours",
+    "apiKeyLabel": "Clé API OpenAI",
+    "saveKey": "Enregistrer la clé",
+    "keySaved": "Clé enregistrée !"
   },
   "pricing": {
     "title": "Tarification Simple et",
@@ -117,5 +124,8 @@
       "status": "Statut"
     },
     "copyright": "Tous droits réservés."
-  }
-}
+  },
+  "login": {
+    "title": "Connexion",
+    "googleButton": "Se connecter avec Google"
+  }}

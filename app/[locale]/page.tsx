@@ -2,21 +2,14 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import { useParams } from 'next/navigation';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { 
-  Zap, 
-  Brain, 
-  Video, 
-  Image, 
-  Music, 
-  BarChart3, 
-  Calendar, 
-  Settings,
-  Play,
-  Pause,
-  ArrowRight,
+  Zap,
+  Brain,
+  Video,
+  BarChart3,
+  Calendar,
   Check,
-  Star,
   Users,
   TrendingUp,
   Globe,
@@ -25,7 +18,6 @@ import {
   Youtube,
   Linkedin,
   Twitter,
-  Languages
 } from 'lucide-react';
 
 const platforms = [
@@ -59,66 +51,14 @@ const features = [
   }
 ];
 
-// Language selector component
-function LanguageSelector() {
-  const params = useParams();
-  const currentLocale = params.locale as string;
-  
-  const languages = [
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'fr', name: 'Français', flag: '🇫🇷' },
-    { code: 'es', name: 'Español', flag: '🇪🇸' },
-    { code: 'he', name: 'עברית', flag: '🇮🇱' }
-  ];
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleLanguageChange = (locale: string) => {
-    const currentPath = window.location.pathname;
-    const newPath = currentPath.replace(`/${currentLocale}`, `/${locale}`);
-    window.location.href = newPath;
-  };
-
-  return (
-    <div className="relative">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
-      >
-        <Languages className="w-4 h-4" />
-        <span className="text-sm">
-          {languages.find(lang => lang.code === currentLocale)?.flag}
-        </span>
-      </button>
-      
-      {isOpen && (
-        <div className="absolute top-full mt-2 right-0 bg-[#0d0d2b] border border-white/10 rounded-lg shadow-xl z-50 min-w-[150px]">
-          {languages.map((lang) => (
-            <button
-              key={lang.code}
-              onClick={() => {
-                handleLanguageChange(lang.code);
-                setIsOpen(false);
-              }}
-              className={`w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-white/10 transition-colors first:rounded-t-lg last:rounded-b-lg ${
-                currentLocale === lang.code ? 'bg-white/5' : ''
-              }`}
-            >
-              <span className="text-lg">{lang.flag}</span>
-              <span className="text-sm">{lang.name}</span>
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
 
 export default function Home() {
   const t = useTranslations();
   const [isGenerating, setIsGenerating] = useState(false);
   const [currentPlatform, setCurrentPlatform] = useState(0);
   const [contentInput, setContentInput] = useState('');
+  const [tokens, setTokens] = useState(0);
+  const tokenRate = 0.002;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -126,6 +66,11 @@ export default function Home() {
     }, 3000);
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    const words = contentInput.trim() ? contentInput.trim().split(/\s+/).length : 0;
+    setTokens(words * 4);
+  }, [contentInput]);
 
   const handleGenerate = () => {
     if (contentInput.trim()) {
@@ -172,7 +117,7 @@ export default function Home() {
               <a href="#analytics" className="text-gray-300 hover:text-white transition-colors">
                 {t('navigation.analytics')}
               </a>
-              <LanguageSelector />
+              <LanguageSwitcher />
               <button className="btn-g">{t('navigation.getStarted')}</button>
             </div>
           </div>
@@ -222,7 +167,12 @@ export default function Home() {
                   )}
                 </button>
               </div>
-              
+
+              <p className="mt-2 text-sm text-gray-400 text-center">
+                {t('hero.tokenEstimate', { count: tokens })} —
+                {t('hero.costEstimate', { price: (tokens / 1000 * tokenRate).toFixed(4) })}
+              </p>
+
               {/* Platform Selector */}
               <div className="mt-6 flex flex-wrap gap-3 justify-center">
                 {platforms.map((platform, index) => (

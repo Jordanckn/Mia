@@ -11,7 +11,9 @@
     "subtitle": "צור, תזמן ופרסם תוכן מעניין באופן אוטומטי באינסטגרם, טיקטוק, יוטיוב, לינקדאין ו-X עם חבילת הבינה המלאכותית המתקדמת שלנו.",
     "inputPlaceholder": "הכנס את נושא התוכן שלך (לדוגמה: 'מגמות בינה מלאכותית חדשות בשיווק')",
     "generateButton": "צור תוכן",
-    "generating": "יוצר..."
+    "generating": "יוצר...",
+    "tokenEstimate": "כמות משוערת: {count}",
+    "costEstimate": "עלות משוערת: {price} $"
   },
   "stats": {
     "contentGenerated": "פריטי תוכן שנוצרו",
@@ -39,17 +41,22 @@
     }
   },
   "dashboard": {
-    "title": "לוח בקרת",
-    "titleHighlight": "אנליטיקה בזמן אמת",
-    "subtitle": "עקוב אחר ביצועי התוכן שלך בכל הפלטפורמות עם תובנות מתקדמות ואנליטיקה חזויה.",
-    "totalReach": "הגעה כוללת",
+    "welcome": "ברוכים הבאים ללוח הבקרה",
+    "connectSocials": "חבר את הרשתות החברתיות שלך",
+    "title": "לוח בקרה",
+    "titleHighlight": "סקירה",
+    "subtitle": "כל המדדים שלך במקום אחד",
+    "totalReach": "טוטאל ריץ'",
     "engagementRate": "שיעור מעורבות",
     "contentGenerated": "תוכן שנוצר",
     "performanceOverview": "סקירת ביצועים",
+    "interactiveCharts": "תרשימים אינטראקטיביים",
     "recentActivity": "פעילות אחרונה",
-    "activityItem": "תוכן פורסם באינסטגרם",
-    "timeAgo": "דקות",
-    "interactiveCharts": "גרפים ואנליטיקה אינטראקטיביים"
+    "activityItem": "פוסט חדש פורסם",
+    "timeAgo": "ימים",
+    "apiKeyLabel": "מפתח API של OpenAI",
+    "saveKey": "שמור מפתח",
+    "keySaved": "המפתח נשמר!"
   },
   "pricing": {
     "title": "תמחור פשוט ו",
@@ -117,5 +124,8 @@
       "status": "סטטוס"
     },
     "copyright": "כל הזכויות שמורות."
-  }
-}
+  },
+  "login": {
+    "title": "התחברות",
+    "googleButton": "התחבר עם גוגל"
+  }}

@@ -2,6 +2,7 @@ import '../globals.css';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import AuthProvider from '@/components/AuthProvider';
 import { notFound } from 'next/navigation';
 
 const locales = ['en', 'fr', 'es', 'he'];
@@ -51,7 +52,7 @@ export default async function RootLayout({
 
   // Providing all messages to the client
   // side is the easiest way to get started
-  const messages = await getMessages(locale);
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale} dir={locale === 'he' ? 'rtl' : 'ltr'}>
@@ -60,10 +61,10 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </head>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <AuthProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </AuthProvider>
       </body>
-    </html>
-  );
-}
+    </html>  );}

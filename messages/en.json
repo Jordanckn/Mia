@@ -11,7 +11,9 @@
     "subtitle": "Generate, schedule, and publish engaging content automatically across Instagram, TikTok, YouTube, LinkedIn, and X with our advanced AI suite.",
     "inputPlaceholder": "Enter your content topic (e.g., 'Latest AI trends in marketing')",
     "generateButton": "Generate Content",
-    "generating": "Generating..."
+    "generating": "Generating...",
+    "tokenEstimate": "Approx. tokens: {count}",
+    "costEstimate": "Est. cost: ${price}"
   },
   "stats": {
     "contentGenerated": "Content Pieces Generated",
@@ -39,17 +41,22 @@
     }
   },
   "dashboard": {
-    "title": "Real-Time",
-    "titleHighlight": "Analytics Dashboard",
-    "subtitle": "Monitor your content performance across all platforms with advanced insights and predictive analytics.",
+    "welcome": "Welcome to your dashboard",
+    "connectSocials": "Connect your social accounts",
+    "title": "Dashboard",
+    "titleHighlight": "Overview",
+    "subtitle": "All your metrics in one place",
     "totalReach": "Total Reach",
     "engagementRate": "Engagement Rate",
     "contentGenerated": "Content Generated",
     "performanceOverview": "Performance Overview",
+    "interactiveCharts": "Interactive charts here",
     "recentActivity": "Recent Activity",
-    "activityItem": "Content published to Instagram",
-    "timeAgo": "minutes ago",
-    "interactiveCharts": "Interactive charts and analytics"
+    "activityItem": "New post published",
+    "timeAgo": "days",
+    "apiKeyLabel": "OpenAI API Key",
+    "saveKey": "Save Key",
+    "keySaved": "Key saved!"
   },
   "pricing": {
     "title": "Simple,",
@@ -117,5 +124,8 @@
       "status": "Status"
     },
     "copyright": "All rights reserved."
-  }
-}
+  },
+  "login": {
+    "title": "Login",
+    "googleButton": "Sign in with Google"
+  }}
